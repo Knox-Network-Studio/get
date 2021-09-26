@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <Description>Displays .NET version and environment information.</Description>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RollForward>LatestMajor</RollForward>
+    <VersionPrefix>1.0.2</VersionPrefix>
+    <PackageProjectUrl>https://github.com/dotnet/core/blob/master/samples/dotnet-runtimeinfo/README.md</PackageProjectUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <Copyright>.NET Foundation</Copyright>
+    <Authors>.NET Team</Authors>
+    <PackAsTool>true</PackAsTool>
+  </PropertyGroup>
+
+  <!-- 
+    To pack correctly
+    dotnet pack /p:ContinuousIntegrationBuild=true
+  -->
+
+</Project>
